@@ -18,7 +18,7 @@ import org.w3c.dom.Node;
 
 @SuppressWarnings("serial")
 public class WeatherMonitorServlet extends HttpServlet {
-	private static String WUNDERGROUND_KEY = "xxxxxxxxxxxxx";
+	private static String WUNDERGROUND_KEY = "xxxxxxxxxxxxx";//Replace with your own
 	private static String WEATHER_DATA_FORMAT = ".xml";
 	private static String WEATHER_URL = "http://api.wunderground.com/api/" + WUNDERGROUND_KEY + "/geolookup/conditions/q/";
 	private static final Logger logger = Logger.getLogger(WeatherMonitorServlet.class.getName());
